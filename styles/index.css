@@ -1,0 +1,77 @@
+.inter-body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* share style */
+.btn{
+    padding: 18px 36px 19px 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    margin: 0px 230px;
+}
+
+nav h1{
+    font-size: 45px;
+    color: #181818;
+}
+
+nav ul{
+        display: flex;
+        gap: 51px;
+        font-size: 20px;
+        align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    color: #474747;
+    text-decoration: none;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+}
+
+.banner-greatting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-tital{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.btn-contact{
+    padding: 18px 36px 19px 35px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
